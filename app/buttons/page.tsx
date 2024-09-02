@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Buttonspage() {
   return (
-    <div className="flex flex-col p-4 gap-4 max-w-[200px]">
+    <div className="flex max-w-[200px] flex-col gap-4 p-4">
       <Button>Default</Button>
       <Button variant="primary">Primary</Button>
       <Button variant="primaryOutline">Primary Outline</Button>
