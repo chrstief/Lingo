@@ -1,3 +1,4 @@
+import { courses } from "@/db/schema";
 import { InfinityIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +10,7 @@ export function UserProgress({
   points,
   hasActiveSubscription,
 }: {
-  activeCourse: { imageSrc: string; title: string };
+  activeCourse: typeof courses.$inferInsert;
   hearts: number;
   points: number;
   hasActiveSubscription: boolean;
