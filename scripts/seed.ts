@@ -109,7 +109,7 @@ async function main() {
         challengeId: 1, //Which one if these is "the man"
         imageSrc: "/woman.svg",
         correct: false,
-        text: "el mujer",
+        text: "la mujer",
         audioSrc: "/es_woman.mp3",
       },
       {
