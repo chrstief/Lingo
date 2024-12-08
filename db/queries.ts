@@ -175,8 +175,9 @@ export const getLessonPercentage = cache(async () => {
   const completedChallengens = lesson.challenges.filter(
     (challenge) => challenge.completed,
   );
-  const percentage =
-    Math.round(completedChallengens.length / lesson.challenges.length) * 100;
+  const percentage = Math.round(
+    (completedChallengens.length / lesson.challenges.length) * 100,
+  );
 
   return percentage;
 });
